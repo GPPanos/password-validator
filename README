@@ -1,0 +1,41 @@
+ Password Validator
+
+This simple Java program, PasswordValidator, is designed to validate user passwords based on specific criteria. It checks if the password contains at least one digit, one lowercase letter, one special character from the set [!@#$%^&*], and has a length between 5 and 10 characters.
+
+Usage
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/PasswordValidator.git
+   ```
+
+2. **Compile and Run:**
+   ```bash
+   javac PasswordValidator.java
+   java PasswordValidator
+   ```
+
+3. **Input Password:**
+   Enter a password when prompted by the program.
+
+4. **Output:**
+   The program will display whether the entered password is valid or not.
+
+ Example
+
+```java
+***Password Validator ***
+
+Enter your password: MyP@ssw0rd
+true
+Valid password. Thank you.
+```
+
+ Note
+
+- Ensure you have Java installed on your system.
+- The password criteria can be adjusted by modifying the `PASSWORD_PATTERN` in the code.
+
+Feel free to contribute or customize the code to fit your specific requirements. If you encounter any issues or have suggestions for improvement, please create an issue or pull request.
+
+Happy coding!
